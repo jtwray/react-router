@@ -19,11 +19,11 @@ This guide covers the following topics:
   - [Prompts](#prompts)
 
 <a name="history-and-location"></a>
-
 ## History and Location
 
 TODO
 
+<a name="urls-and-location-state"></a>
 ### URLs and Location State
 
 TODO
