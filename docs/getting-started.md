@@ -1,22 +1,16 @@
 # Getting Started with React Router
 
 React Router is a fully-featured client and server-side routing library for
-React, a JavaScript library for building user interfaces. React Router runs
-anywhere React runs; on the web, on the server with node.js, and on React
-Native.
+[React](https://reactjs.org/), a JavaScript library for building user
+interfaces. React Router runs anywhere React runs; on the web, on the server
+with node.js, and on [React Native](https://reactnative.dev/).
 
 ## Create a new React Router app
 
-If you're just getting started with React, we recommend you follow [the
-excellent Getting Started guide](https://reactjs.org/docs/getting-started.html)
-in the official docs. There is plenty of information there to get you up and
-running. React Router is compatible with React >= 16.8.
-
-If you're just getting started with React Router, we recommend you read our
-guide about how to [add React and React Router to your
-website](add-to-a-website.md) or how to [add React Router to your React Native
-app](add-to-react-native.md) if you're building something with [React
-Native](https://facebook.github.io/react-native/).
+To get started with React Router, we recommend you follow either our [guide for
+adding React Router to a website](add-to-a-website.md) if using React.js on the
+web, or the [guide for adding React Router to a React Native
+app](add-to-react-native.md) if you're on React Native.
 
 Once you have React Router installed and running, come back and continue with
 this guide.
@@ -26,7 +20,9 @@ this guide.
 The heart of React Router is the concept of a *route*. A route represents a
 "page" in your app (or a "view" if you're on React Native). React Router
 represents routes internally with URLs, also called "locations". React Router
-lets you declare React elements that it renders when the user visits a route.
+lets you declare [React
+elements](https://reactjs.org/docs/rendering-elements.html) that it renders when
+the user visits a route.
 
 A simple web app with two pages, "home" and "about" might look something like
 this:

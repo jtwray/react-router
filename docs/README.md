@@ -7,12 +7,12 @@ and find a TODO, complete it, and make a PR. Thanks!**
 
 Welcome to the React Router docs! If you're reading this, you're probably
 browsing [our docs on GitHub](/docs). You're welcome to keep reading here, or
-you may prefer browsing them on [our website](#TODO). Either way, we hope you
-find them useful!
+you may prefer browsing them on [our website](https://reactrouter.com). Either
+way, we hope you find them useful!
 
 The docs are currently divided up into the following sections:
 
-- [Installation](installation)
+- [Getting Started](getting-started.md)
 - [Main Concepts](main-concepts.md)
 - [Advanced Guides](advanced-guides)
 - [Tutorial](tutorial)
@@ -21,7 +21,7 @@ The docs are currently divided up into the following sections:
 - [FAQ](faq.md)
 
 If you're not sure where to begin, our [Getting Started
-guide](installation/getting-started.md) is a great place to start!
+guide](getting-started.md) is a great place to start!
 
 If you're looking for past versions of the docs, they are all on GitHub and
 versioned with everything else alongside the actual code.

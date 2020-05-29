@@ -4,12 +4,14 @@ There are a few different ways to get React Router running on your website,
 depending mostly on what the rest of your stack looks like. This document
 describes the most common ways people use React Router.
 
-React Router has a single dependency, the `history` library, which is developed
-and released alongside the router. All of the following methods will
-automatically include this dependency.
+If you're just getting started with React, we recommend you follow [the Getting
+Started guide on reactjs.org](https://reactjs.org/docs/getting-started.html) to
+get a React app up and running in a web browser.
+
+Once you have your React app, you can continue to the next step using one of the
+following methods (depending on how you set it up):
 
 - [Quick Install](#quick-install)
-- [Install with a Package Manager](#install-with-a-package-manager)
 - [Create React App](#create-react-app)
 - [Parcel](#parcel)
 - [Webpack](#webpack)
@@ -17,9 +19,8 @@ automatically include this dependency.
 ## Quick Install
 
 One of the quickest ways to add React and React Router to a website is to use
-good ol' `<script>` tags and global variables. React Router is compatible with
-React 16.8+. Just add the following `<script>` tags to your HTML, just before
-the closing `</body>` tag:
+good ol' `<script>` tags and global variables. Just add the following `<script>`
+tags to your HTML, just before the closing `</body>` tag:
 
 ```html
   <!-- Other HTML for your app goes here -->
@@ -62,7 +63,6 @@ the closing `</body>` tag:
     document.getElementById('root')
   );
   </script>
-
 </body>
 ```
 
@@ -74,17 +74,6 @@ little of the library as you actually need.
 In order to do this, you'll need to build your website with a JavaScript bundler
 like Webpack or Parcel. The rest of the installation methods on this page
 describe how to get started using these tools.
-
-## Install with a Package Manager
-
-Before using a bundler for your project, you'll first need to install React
-Router to your local `node_modules` directory using a JavaScript package
-manager. The following instructions use [npm](https://www.npmjs.com/), but
-[Yarn](https://yarnpkg.com/) is also a popular choice.
-
-```sh
-$ npm install history@5 react-router@6 react-router-dom@6
-```
 
 ## Create React App
 

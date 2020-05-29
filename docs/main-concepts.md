@@ -5,10 +5,10 @@ your app? What exactly is a **router**, anyway?
 
 If you've ever had any of these questions, or you'd just like to dig into the
 fundamental pieces of routing, you're in the right place. This document contains
-detailed explanations of all the core concepts behind routing as implemented in
-React Router.
+detailed explanations of all the core concepts behind routing as found in [React
+Router](https://reactrouter.com).
 
-We will cover the following topics:
+This guide covers the following topics:
 
 - [History and Location](#history-and-location)
   - [URLs and Location State](#urls-and-location-state)
