@@ -18,6 +18,7 @@ This guide covers the following topics:
   - [Transitions](#transitions)
   - [Prompts](#prompts)
 
+<a id="history-and-location" />
 ## History and Location
 
 TODO
